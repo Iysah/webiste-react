@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
+:root {
+  --font-family: 'Comfortaa', cursive;
+  
+  --color-bg: #fff;
+  --color-btn : #02577a;
+  --color-footer: #01303f;
+  --color-blog: #042c54;
+  --color-text: #0C0114;
+  --color-text-light: #5f9bce;
+  --color-subtext: #FA9706;
+  --login-btn: #caf6ff;
+}

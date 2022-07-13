@@ -1,0 +1,160 @@
+.theConnect__talents {
+    background: var(--login-btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.theConnect__talents-container {
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.theConnect__talents-box {
+    background: var(--login-btn);
+
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    flex-direction: column;
+    padding: 1rem 4rem;
+}
+
+
+.theConnect__talents-box h1 {
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+
+    color: var(--color-blog);
+}
+
+
+.theConnect__talents-box h4 {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: start;
+    text-transform: uppercase;
+    opacity: .7;
+    
+    color: var(--color-blog);
+}
+
+.theConnect__talents-box button {
+    border: none;
+    margin-top: 1rem;
+    padding: 16px 24px;
+    background-color: var(--color-btn);
+    color: var(--login-btn);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.theConnect__talents-badge {
+    margin-bottom: 1rem;
+    background-color: var(--color-btn);
+    padding: 7.2vh;
+    border-radius: 3px;
+    font-family: var(--font-family);
+    color: var(--color-bg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.theConnect__talents-badge_header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.theConnect__talents-badge_header h3 {
+    font-size: calc(36px + 4*((100vw - 576px)/1024));
+    line-height: 1.1;
+    font-family: var(--font-family);
+}
+.theConnect__talents-badge_header a {
+    background-color: var(--login-btn);
+    color: var(--color-btn);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 18px;
+    min-height: 20px;
+    line-height: 20px;
+
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 990px) {
+   
+}
+
+@media screen and (max-width: 700px) {
+    
+    
+}
+
+@media screen and (max-width: 450px) {
+    .section__padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .theConnect__talents-container {
+        flex-direction: column;
+    }
+    .theConnect__talents-box h3 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.04em;
+    }
+    .theConnect__talents-box {
+        width: 370px;
+        height: 400px;
+        
+        border: 1px solid #DBDBDB;
+        border-radius: 8px;
+        margin: 15px 10px;
+    }
+    .theConnect__talents-box p {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+    }
+    .theConnect__talents-box .theConnect__image {
+        width: 94px;
+        height: 94px;
+    }
+    .theConnect__talents-box:last-of-type .theConnect__image {
+        width: 150px;
+    }
+}

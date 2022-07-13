@@ -1,0 +1,69 @@
+.theConnect__future {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.theConnect__future > p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #808080;
+    /* margin-bottom: 2rem; */
+}
+
+.theConnect__future > h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #0C0114;
+}
+
+
+.theConnect__future-container_groupB {
+    margin: 9rem 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 950px) {
+    .gpt3__future-container_groupB {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .theConnect__future-container_groupB {
+        /* width: 382px; */
+        flex: 1;
+    
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .theConnect__future h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.04em;
+    
+    }
+    .theConnect__future-container_groupB {
+        margin: 2.3rem 0;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: .7rem .6rem;
+    }
+
+}

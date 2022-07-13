@@ -1,0 +1,73 @@
+.theConnect__collaborate-content {
+    background: var(--login-btn);
+}
+
+.theConnect__collaborate-content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theConnect__collaborate-content__header,
+.theConnect__collaborate-content__bottom {
+    width: 50%;
+}
+
+.theConnect__collaborate-content__header h4 {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: start;
+    text-transform: uppercase;
+    opacity: .97;
+    
+    color: var(--color-footer);
+}
+.theConnect__collaborate-content__header h3 {
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    text-align: start;
+
+    color: var(--color-footer);
+}
+.theConnect__collaborate-content__bottom .bottom-btn {
+    margin-top: 1rem;
+    padding: 16px 24px;
+    background-color: var(--color-btn);
+    color: var(--login-btn);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    width: 30%;
+
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.theConnect__.theConnect__collaborate-content__bottom .bottom-btn:hover svg:hover  {
+    transform: translateX(6px);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.theConnect__collaborate-content__bottom div a {
+    padding-right: .6rem;
+}
+
+.theConnect__collaborate-content__bottom p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 1.5em;
+
+    color: var(--color-footer);
+}

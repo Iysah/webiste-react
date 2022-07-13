@@ -1,0 +1,192 @@
+.theConnect__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.space {
+    padding: 4rem 6rem;
+}
+.theConnect__header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.theConnect__header-content > h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin-bottom: 1.1rem;
+    color: var(--color-btn);
+}
+
+
+.theConnect__header-content__subheader {
+    width: 100%;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theConnect__header-content__subheader h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+}
+
+.theConnect__header-content__subheader button {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: var(--color-btn);
+    border: none;
+    padding: 21px 52px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+
+
+.theConnect__header .view {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--font-family);
+}
+.theConnect__header .view a  {
+    padding-right: .5rem;
+}
+.theConnect__header .view:hover svg  {
+    transform: translateX(6px);
+    transition: .3s;
+}
+/* @media screen and (max-width: 1500px) {
+    .theConnect__header-content h1 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+    }
+} */
+
+@media screen and (max-width: 840px) {
+    .theConnect__header  {
+        padding: 2rem 4rem;
+    }
+
+    .theConnect__header-content h1 {
+        font-size: 60px;
+        line-height: 90px;
+        text-align: center;
+        margin: 1rem 2rem;
+        letter-spacing: -0.03em;
+    }
+    .theConnect__header-content__input {
+        width: 70%;
+        padding: 20px 15px;
+        justify-content: start;
+    }
+    .theConnect__header-content__input input {
+        width: 200px;
+    }
+    .theConnect__header-content__form button {
+        width: 20%;
+        line-height: 24px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .theConnect__header  {
+        padding: 1rem 2rem;
+    }
+    .theConnect__header-content h1 {
+        font-size: 40x;
+        line-height: 70px;
+        text-align: center;
+        margin: 1rem 2rem;
+        letter-spacing: -0.01em;
+    }
+
+    .theConnect__header-content__input {
+        width: 60%;
+        justify-content: start;
+        padding: 15px;
+    }
+    .theConnect__header-content__input input {
+        width: 200px;
+    }
+    .theConnect__header-content__form button {
+        width: 30%;
+    }
+
+    .theConnect__header-content__form button {
+        font-size: 16px;
+        line-height: 24px;
+        padding:  15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .theConnect__header-content h1 {
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+        letter-spacing: -0.06em;
+
+        color: #0C0114;
+    }
+    
+    .theConnect__header-content__form {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .theConnect__header-content__input {
+        width: 264px;
+        height: 64px;
+
+        border: 1px solid #DBDBDB;
+        border-radius: 4px;
+    }
+    .theConnect__header-content__input input {
+        width: 70%;
+    }
+    .theConnect__header-content__form button {
+        width: 98px;
+        height: 64px;
+        background: #3E0563;
+        border-radius: 4px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .theConnect__header-content__form button {
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        padding: 20px 10px;
+    }
+}
